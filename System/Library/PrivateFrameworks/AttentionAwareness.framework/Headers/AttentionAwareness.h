@@ -1,0 +1,17 @@
+#import <AttentionAwareness/AWScheduler.h>
+#import <AttentionAwareness/AWEventStatistics.h>
+#import <AttentionAwareness/AWRemoteClient.h>
+#import <AttentionAwareness/AWClientPreferences.h>
+#import <AttentionAwareness/AWSchedulerManager.h>
+#import <AttentionAwareness/AWClientPollWaiter.h>
+#import <AttentionAwareness/AWAttentionSampler.h>
+#import <AttentionAwareness/AWUnitTestFaceDetectOperation.h>
+#import <AttentionAwareness/AWUnitTestPearlDevice.h>
+#import <AttentionAwareness/AWPearlAttentionSampler.h>
+#import <AttentionAwareness/AWAttentionAwarenessClientConfig.h>
+#import <AttentionAwareness/AWAttentionAwarenessConfiguration.h>
+#import <AttentionAwareness/AWAttentionEvent.h>
+#import <AttentionAwareness/AWAttentionLostEvent.h>
+#import <AttentionAwareness/AWAttentionAwarenessClient.h>
+#import <AttentionAwareness/AWSampleLogData.h>
+#import <AttentionAwareness/AWSampleLogger.h>

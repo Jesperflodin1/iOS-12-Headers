@@ -1,0 +1,16 @@
+#import <WebKitLegacy/__WebPDFViewAccessibility_super.h>
+#import <WebKitLegacy/UIAccessibilityPDFElement.h>
+#import <WebKitLegacy/WebPDFViewAccessibility.h>
+#import <WebKitLegacy/__UIWebBrowserViewAccessibility_super.h>
+#import <WebKitLegacy/UIWebBrowserViewAccessibility.h>
+#import <WebKitLegacy/__WebHTMLViewAccessibility_super.h>
+#import <WebKitLegacy/WebHTMLViewAccessibility.h>
+#import <WebKitLegacy/__WebViewAccessibility_super.h>
+#import <WebKitLegacy/WebViewAccessibility.h>
+#import <WebKitLegacy/__UIWebDocumentViewAccessibility_super.h>
+#import <WebKitLegacy/UIWebDocumentViewAccessibility.h>
+#import <WebKitLegacy/__UIWebViewAccessibility_super.h>
+#import <WebKitLegacy/UIWebViewAccessibility.h>
+#import <WebKitLegacy/AXWebKitGlueLegacy.h>
+#import <WebKitLegacy/___UICompatibilityTextViewAccessibility_super.h>
+#import <WebKitLegacy/_UICompatibilityTextViewAccessibility.h>

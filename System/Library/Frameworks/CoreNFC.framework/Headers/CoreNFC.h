@@ -1,0 +1,15 @@
+#import <CoreNFC/NFCHardwareManagerInterface.h>
+#import <CoreNFC/NFCHardwareManagerCallbacks.h>
+#import <CoreNFC/NFCSession.h>
+#import <CoreNFC/NFCTagCommandConfiguration.h>
+#import <CoreNFC/NFCTag.h>
+#import <CoreNFC/NFCNDEFPayload.h>
+#import <CoreNFC/NFCNDEFMessage.h>
+#import <CoreNFC/NFCNDEFReaderSession.h>
+#import <CoreNFC/NFCError.h>
+#import <CoreNFC/NFCISO15693CustomCommandConfiguration.h>
+#import <CoreNFC/NFCISO15693ReadMultipleBlocksConfiguration.h>
+#import <CoreNFC/NFCISO15693Tag.h>
+#import <CoreNFC/NFCReaderSession.h>
+#import <CoreNFC/NFCISO15693ReaderSession.h>
+#import <CoreNFC/NFCHardwareManager.h>

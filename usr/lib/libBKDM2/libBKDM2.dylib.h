@@ -1,0 +1,16 @@
+#import <libBKDM2.dylib/DiagsProfileListener.h>
+#import <libBKDM2.dylib/BiometricKitTime.h>
+#import <libBKDM2.dylib/FaceDetectContext.h>
+#import <libBKDM2.dylib/BiometricOperation.h>
+#import <libBKDM2.dylib/BiometricKitXPCServerPearl.h>
+#import <libBKDM2.dylib/AWDBiometricKitBioLockoutEvent.h>
+#import <libBKDM2.dylib/BioLog.h>
+#import <libBKDM2.dylib/AWDBiometricKitAttentionCheck.h>
+#import <libBKDM2.dylib/PearlCoreAnalytics.h>
+#import <libBKDM2.dylib/AWDBiometricKitPassCodeChallengeAttempt.h>
+#import <libBKDM2.dylib/BLHelper.h>
+#import <libBKDM2.dylib/AWDBiometricKitEnrollAttempt.h>
+#import <libBKDM2.dylib/AWDBiometricKitMatchAttempt.h>
+#import <libBKDM2.dylib/BLRetention.h>
+#import <libBKDM2.dylib/AWDBiometricKitFaceDetectAttempt.h>
+#import <libBKDM2.dylib/AWDBiometricKitDailyUpdate.h>
