@@ -1,21 +1,15 @@
-#import <WatchConnectivity/WCActiveDeviceSwitchTask.h>
-#import <WatchConnectivity/WCDProtoUserInfoTransfer.h>
-#import <WatchConnectivity/WCDictionaryMessageRecord.h>
-#import <WatchConnectivity/WCMessageRecord.h>
-#import <WatchConnectivity/WCMessageRequest.h>
-#import <WatchConnectivity/WCMessage.h>
-#import <WatchConnectivity/WCSessionUserInfoTransfer.h>
-#import <WatchConnectivity/WCSessionState.h>
+//
+//  WatchConnectivity.h
+//  WatchConnectivity
+//
+//  Copyright (c) 2015 Apple Inc. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+#import <WatchConnectivity/WCDefines.h>
+
+#import <WatchConnectivity/WCError.h>
 #import <WatchConnectivity/WCSession.h>
-#import <WatchConnectivity/WCComplicationManager.h>
-#import <WatchConnectivity/WCMessageResponse.h>
-#import <WatchConnectivity/WCDataMessageRecord.h>
-#import <WatchConnectivity/WCContentIndex.h>
-#import <WatchConnectivity/WCUserInfo.h>
-#import <WatchConnectivity/WCPrivateXPCManager.h>
 #import <WatchConnectivity/WCSessionFile.h>
-#import <WatchConnectivity/WCSessionFileTransfer.h>
-#import <WatchConnectivity/WCFileStorage.h>
-#import <WatchConnectivity/WCQueuedMessage.h>
-#import <WatchConnectivity/WCQueueManager.h>
-#import <WatchConnectivity/WCXPCManager.h>
+#import <WatchConnectivity/WCSessionUserInfoTransfer.h>

@@ -1,103 +1,45 @@
-#import <CoreML/MLClassifier.h>
-#import <CoreML/MLDictionaryConstraint.h>
-#import <CoreML/_MLNLPSentenceClassifierModel.h>
-#import <CoreML/MLNeuralNetworkSpecification.h>
-#import <CoreML/MLNeuralNetworkEngine.h>
-#import <CoreML/MLImageSize.h>
-#import <CoreML/MLMultiArrayUtils.h>
-#import <CoreML/MLMultiArray.h>
-#import <CoreML/MLMultiArrayAsNSArrayWrapper.h>
-#import <CoreML/MLMultiArrayView.h>
-#import <CoreML/MLSVREngine.h>
-#import <CoreML/MLModelErrorUtils.h>
-#import <CoreML/MLDefaultCustomModelFactory.h>
-#import <CoreML/MLCustomModelLoader.h>
-#import <CoreML/MLCustomModelWrapper.h>
-#import <CoreML/MLModelConfiguration.h>
-#import <CoreML/MLSVRLoader.h>
-#import <CoreML/MLArrayBatchProvider.h>
-#import <CoreML/MLModelDescription.h>
-#import <CoreML/MLPipelineClassifier.h>
-#import <CoreML/MLMultiArrayShapeConstraint.h>
-#import <CoreML/MLObjectBoundingBoxOutputDescription.h>
-#import <CoreML/MLIdentity.h>
-#import <CoreML/MLVersionInfo.h>
-#import <CoreML/MLSVMEngine.h>
-#import <CoreML/MLCustomLayerWrapper.h>
-#import <CoreML/MLFeatureProviderUtils.h>
-#import <CoreML/MLLazyUnionFeatureProvider.h>
-#import <CoreML/MLTreeEnsembleRegressor.h>
-#import <CoreML/MLImageConstraint.h>
-#import <CoreML/MLModelAsset.h>
+//
+//  CoreML.h
+//  CoreML
+//
+//  Copyright © 2017 Apple Inc. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+#import <CoreML/MLFeatureType.h>
 #import <CoreML/MLFeatureValue.h>
-#import <CoreML/_MLVNScenePrintCustomModel.h>
-#import <CoreML/_MLNLPWordTaggingModel.h>
-#import <CoreML/MLModelTypeRegistry.h>
-#import <CoreML/_MLVNFrameworkHandle.h>
-#import <CoreML/MLTreeEnsembleClassifier.h>
-#import <CoreML/MLLoader.h>
 #import <CoreML/MLFeatureDescription.h>
-#import <CoreML/MLModelVisionFeaturePrintInfo.h>
-#import <CoreML/MLPipeline.h>
-#import <CoreML/MLSupportVectorRegressor.h>
-#import <CoreML/MLGLMRegression.h>
-#import <CoreML/CoreMLVersion.h>
-#import <CoreML/MLGKDecisionTree.h>
-#import <CoreML/MLSequence.h>
-#import <CoreML/MLSequnceAsFeatureValueArray.h>
-#import <CoreML/MLModelInterface.h>
-#import <CoreML/MLCompilerOptions.h>
-#import <CoreML/MLCompilerResult.h>
-#import <CoreML/MLCompiler.h>
-#import <CoreML/MLSaver.h>
-#import <CoreML/MLLogging.h>
-#import <CoreML/MLModel.h>
-#import <CoreML/MLAppleImageFeatureExtractorScenePrintParameters.h>
-#import <CoreML/MLAppleImageFeatureExtractorParameters.h>
-#import <CoreML/MLAppleImageFeatureExtractor.h>
-#import <CoreML/MLRegressorResult.h>
-#import <CoreML/MLRegressor.h>
-#import <CoreML/MLFeatureTypeUtils.h>
-#import <CoreML/_MLInternalNLPModelWriter.h>
+#import <CoreML/MLFeatureProvider.h>
 #import <CoreML/MLDictionaryFeatureProvider.h>
-#import <CoreML/MLPipelineRegressor.h>
-#import <CoreML/MLSupportVectorClassifier.h>
-#import <CoreML/MLClassifierResult.h>
-#import <CoreML/MLAppleTextClassifierParameters.h>
-#import <CoreML/MLAppleTextClassifier.h>
-#import <CoreML/MLPipelineLoader.h>
-#import <CoreML/MLDefaultCustomLayerFactory.h>
-#import <CoreML/MLNonMaximumSuppressionParameters.h>
-#import <CoreML/MLNonMaximumSuppression.h>
-#import <CoreML/_MLNLPFrameworkHandle.h>
-#import <CoreML/MLPredictionOptions.h>
-#import <CoreML/MLAppleWordTaggerParameters.h>
-#import <CoreML/MLAppleWordTagger.h>
-#import <CoreML/MLBatchProviderUtils.h>
-#import <CoreML/MLLazyUnionBatchProvider.h>
-#import <CoreML/MLWindowedBatchProvider.h>
-#import <CoreML/MLIndexedBatchProvider.h>
-#import <CoreML/MLSVMLoader.h>
-#import <CoreML/MLImputer.h>
-#import <CoreML/MLSupervisedOnlineUpdateOptions.h>
-#import <CoreML/MLModelIOUtils.h>
-#import <CoreML/MLGLMClassification.h>
-#import <CoreML/MLSequenceConstraint.h>
-#import <CoreML/MLModelDescriptionUtils.h>
-#import <CoreML/MLModelMetadata.h>
-#import <CoreML/MLFeatureVectorizer.h>
-#import <CoreML/MLDictVectorizer.h>
-#import <CoreML/MLNormalizer.h>
-#import <CoreML/MLCategoricalMapping.h>
-#import <CoreML/MLScaler.h>
-#import <CoreML/MLOneHotEncoder.h>
-#import <CoreML/MLInternalSettings.h>
-#import <CoreML/MLBayesianProbitRegression.h>
-#import <CoreML/MLProbabilityDictionary.h>
-#import <CoreML/MLStringProbabilityDictionary.h>
-#import <CoreML/MLInt64ProbabilityDictionary.h>
-#import <CoreML/MLStringProbabilityDictionaryEnumerator.h>
-#import <CoreML/MLInt64ProbabilityDictionaryEnumerator.h>
+#import <CoreML/MLBatchProvider.h>
+#import <CoreML/MLArrayBatchProvider.h>
+#import <CoreML/MLMultiArray.h>
+#import <CoreML/MLSequence.h>
+
 #import <CoreML/MLMultiArrayConstraint.h>
+#import <CoreML/MLImageConstraint.h>
+#import <CoreML/MLDictionaryConstraint.h>
+#import <CoreML/MLSequenceConstraint.h>
+
+#import <CoreML/MLImageSize.h>
 #import <CoreML/MLImageSizeConstraint.h>
-#import <CoreML/MLArrayFeatureExtractor.h>
+#import <CoreML/MLImageSizeConstraintType.h>
+
+#import <CoreML/MLMultiArrayShapeConstraint.h>
+#import <CoreML/MLMultiArrayShapeConstraintType.h>
+
+#import <CoreML/MLModel.h>
+#import <CoreML/MLModelDescription.h>
+#import <CoreML/MLModelMetadataKeys.h>
+#import <CoreML/MLPredictionOptions.h>
+#import <CoreML/MLModelConfiguration.h>
+
+#import <CoreML/MLModel+MLModelCompilation.h>
+
+#import <CoreML/MLModelError.h>
+
+#import <CoreML/MLCustomLayer.h>
+#import <CoreML/MLCustomModel.h>
+
+#import <CoreML/MLExport.h>

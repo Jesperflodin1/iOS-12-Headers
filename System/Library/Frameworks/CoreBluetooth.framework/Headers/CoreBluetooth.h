@@ -1,22 +1,28 @@
-#import <CoreBluetooth/PSSpecifierStub.h>
-#import <CoreBluetooth/BTDevicePicker.h>
+/*!
+ *  @header
+ *	@file CoreBluetooth.h
+ *	@framework CoreBluetooth
+ *
+ *  @discussion Bluetooth Low Energy framework
+ *
+ *	@copyright 2011 Apple, Inc. All rights reserved.
+ */
+
+#ifndef _CORE_BLUETOOTH_H_
+#define _CORE_BLUETOOTH_H_
+#endif
+
 #import <CoreBluetooth/CBCentralManager.h>
-#import <CoreBluetooth/CBCharacteristic.h>
-#import <CoreBluetooth/CBMutableCharacteristic.h>
-#import <CoreBluetooth/CBScalablePipeManager.h>
-#import <CoreBluetooth/CBAttribute.h>
-#import <CoreBluetooth/CBScalablePipe.h>
-#import <CoreBluetooth/CBDescriptor.h>
-#import <CoreBluetooth/CBMutableDescriptor.h>
-#import <CoreBluetooth/CBPeripheral.h>
-#import <CoreBluetooth/CBService.h>
-#import <CoreBluetooth/CBMutableService.h>
-#import <CoreBluetooth/CBUUID.h>
-#import <CoreBluetooth/CBL2CAPChannel.h>
-#import <CoreBluetooth/CBPeer.h>
-#import <CoreBluetooth/CBXpcConnection.h>
 #import <CoreBluetooth/CBPeripheralManager.h>
+
+#import <CoreBluetooth/CBPeripheral.h>
 #import <CoreBluetooth/CBCentral.h>
-#import <CoreBluetooth/CBManager.h>
+
+#import <CoreBluetooth/CBService.h>
+#import <CoreBluetooth/CBCharacteristic.h>
+#import <CoreBluetooth/CBDescriptor.h>
+
+#import <CoreBluetooth/CBError.h>
+#import <CoreBluetooth/CBUUID.h>
+#import <CoreBluetooth/CBAdvertisementData.h>
 #import <CoreBluetooth/CBATTRequest.h>
-#import <CoreBluetooth/CBPairingAgent.h>

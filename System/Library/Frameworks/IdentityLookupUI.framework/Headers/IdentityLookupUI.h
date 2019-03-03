@@ -1,6 +1,11 @@
-#import <IdentityLookupUI/ILClassificationUIExtensionHostViewController.h>
+//
+//  IdentityLookupUI.h
+//  IdentityLookupUI
+//
+//  Copyright © 2018 Apple. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
 #import <IdentityLookupUI/ILClassificationUIExtensionContext.h>
-#import <IdentityLookupUI/ILClassificationUIExtensionHostContext.h>
-#import <IdentityLookupUI/ILClassificationReportingController.h>
-#import <IdentityLookupUI/ILClassificationExtensionShellViewController.h>
 #import <IdentityLookupUI/ILClassificationUIExtensionViewController.h>

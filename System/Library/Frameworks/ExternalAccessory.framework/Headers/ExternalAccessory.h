@@ -1,10 +1,13 @@
+//
+//  ExternalAccessory.h
+//  ExternalAccessory
+//
+//  Copyright (c) 2008-2015 Apple Inc. All rights reserved.
+//
+
+#import <ExternalAccessory/ExternalAccessoryDefines.h>
 #import <ExternalAccessory/EAAccessoryManager.h>
-#import <ExternalAccessory/EAOutputStream.h>
-#import <ExternalAccessory/EAInputStream.h>
-#import <ExternalAccessory/EASession.h>
 #import <ExternalAccessory/EAAccessory.h>
-#import <ExternalAccessory/EAAccessoryInternal.h>
-#import <ExternalAccessory/EABluetoothAccessoryPicker.h>
+#import <ExternalAccessory/EASession.h>
 #import <ExternalAccessory/EAWiFiUnconfiguredAccessoryBrowser.h>
 #import <ExternalAccessory/EAWiFiUnconfiguredAccessory.h>
-#import <ExternalAccessory/WACLogging.h>

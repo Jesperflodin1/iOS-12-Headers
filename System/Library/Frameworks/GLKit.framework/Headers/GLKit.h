@@ -1,28 +1,21 @@
-#import <GLKit/GLKBaseEffect.h>
-#import <GLKit/GLKEffect.h>
-#import <GLKit/GLKMeshBufferHolder.h>
-#import <GLKit/GLKMeshBufferZone.h>
-#import <GLKit/GLKMeshBuffer.h>
-#import <GLKit/GLKMeshBufferAllocator.h>
-#import <GLKit/GLKSubmesh.h>
-#import <GLKit/GLKMesh.h>
-#import <GLKit/GLKEffectProperty.h>
-#import <GLKit/GLKEffectPropertyConstantColor.h>
-#import <GLKit/GLKEffectPropertyFog.h>
-#import <GLKit/GLKEffectPropertyLight.h>
-#import <GLKit/GLKEffectPropertyMaterial.h>
-#import <GLKit/GLKEffectPropertyTexGen.h>
-#import <GLKit/GLKEffectPropertyTexture.h>
-#import <GLKit/GLKEffectPropertyTransform.h>
-#import <GLKit/GLKTextureTXR.h>
-#import <GLKit/GLKTexture.h>
-#import <GLKit/GLKTextureInfo.h>
-#import <GLKit/GLKTextureLoader.h>
-#import <GLKit/GLKSkyboxEffect.h>
-#import <GLKit/GLKReflectionMapEffect.h>
-#import <GLKit/GLKShaderBlockNode.h>
-#import <GLKit/GLKHashableBigInt.h>
-#import <GLKit/GLKShadingHash.h>
+//
+//  GLKit.h
+//  GLKit
+//
+//  Copyright (c) 2011-2012, Apple Inc. All rights reserved.
+//
+
+#import <GLKit/GLKitBase.h>
+
+#if TARGET_OS_IPHONE
 #import <GLKit/GLKView.h>
-#import <GLKit/GLKDisplayLinkMessenger.h>
 #import <GLKit/GLKViewController.h>
+#endif
+
+#import <GLKit/GLKModel.h>
+
+#import <GLKit/GLKEffects.h>
+
+#import <GLKit/GLKMath.h>
+
+#import <GLKit/GLKTextureLoader.h>

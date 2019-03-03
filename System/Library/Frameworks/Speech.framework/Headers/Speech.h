@@ -1,12 +1,17 @@
-#import <Speech/_SFSearchResult.h>
-#import <Speech/SFSpeechRecognitionTask.h>
-#import <Speech/_SFSpeechRecognitionBlockTask.h>
-#import <Speech/_SFSpeechRecognitionDelegateTask.h>
+//
+//  Speech.h
+//
+//  Copyright (c) 2016 Apple, Inc. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
 #import <Speech/SFSpeechRecognitionResult.h>
+#import <Speech/SFSpeechRecognitionRequest.h>
+#import <Speech/SFSpeechRecognitionTask.h>
+#import <Speech/SFSpeechRecognitionTaskHint.h>
 #import <Speech/SFSpeechRecognizer.h>
 #import <Speech/SFTranscriptionSegment.h>
-#import <Speech/_SFSearchRequest.h>
-#import <Speech/SFSpeechRecognitionRequest.h>
-#import <Speech/SFSpeechURLRecognitionRequest.h>
-#import <Speech/SFSpeechAudioBufferRecognitionRequest.h>
 #import <Speech/SFTranscription.h>
+
+

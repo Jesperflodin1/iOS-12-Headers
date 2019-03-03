@@ -1,4 +1,8 @@
-#import <UserNotificationsUI/_UNNotificationContentExtensionContext.h>
-#import <UserNotificationsUI/_UNNotificationExtensionRemoteViewController.h>
-#import <UserNotificationsUI/_UNNotificationExtensionRemoteViewControllerView.h>
-#import <UserNotificationsUI/_UNNotificationExtensionHostViewController.h>
+//
+//  UserNotificationsUI.h
+//  UserNotificationsUI
+//
+//  Copyright © 2015 Apple. All rights reserved.
+//
+
+#import <UserNotificationsUI/UNNotificationContentExtension.h>

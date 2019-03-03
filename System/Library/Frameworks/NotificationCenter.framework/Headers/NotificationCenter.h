@@ -1,9 +1,10 @@
-#import <NotificationCenter/NCSizeObservingView.h>
-#import <NotificationCenter/_NCWidgetViewController.h>
-#import <NotificationCenter/_NCWidgetViewControllerView.h>
-#import <NotificationCenter/_NCWidgetExtensionContext.h>
+//
+//  NotificationCenter.h
+//  NotificationCenter
+//
+//  Copyright (c) 2014 Apple. All rights reserved.
+//
+
+#import <NotificationCenter/NCWidgetProviding.h>
 #import <NotificationCenter/NCWidgetController.h>
-#import <NotificationCenter/_NCWidgetControllerRequestLimiter.h>
-#import <NotificationCenter/_NCContentUnavailableView.h>
-#import <NotificationCenter/_NCContentUnavailableViewWithButton.h>
-#import <NotificationCenter/NCWidgetMetrics.h>
+#import <NotificationCenter/NCWidgetTypes.h>

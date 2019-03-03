@@ -1,18 +1,33 @@
-#import <IdentityLookup/ILMessageFilterExtensionHostContext.h>
-#import <IdentityLookup/ILMessageFilterReportRequest.h>
-#import <IdentityLookup/ILMessageCommunication.h>
-#import <IdentityLookup/ILClassificationReportRequest.h>
-#import <IdentityLookup/ILCallCommunication.h>
+//
+//  IdentityLookup.h
+//  IdentityLookup
+//
+//  Copyright © 2017 Apple. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+#import <IdentityLookup/ILBase.h>
+
+#import <IdentityLookup/ILMessageFilterAction.h>
+
+#import <IdentityLookup/ILMessageFilterError.h>
+
 #import <IdentityLookup/ILNetworkResponse.h>
-#import <IdentityLookup/ILClassificationResponse.h>
-#import <IdentityLookup/ILMessageFilterExtensionContext.h>
-#import <IdentityLookup/ILClassification.h>
-#import <IdentityLookup/ILMessageFilter.h>
-#import <IdentityLookup/ILMessageFilterQueryRequest.h>
-#import <IdentityLookup/ILClassificationController.h>
+
 #import <IdentityLookup/ILMessageFilterExtension.h>
-#import <IdentityLookup/ILCallClassificationRequest.h>
+#import <IdentityLookup/ILMessageFilterExtensionContext.h>
+#import <IdentityLookup/ILMessageFilterQueryHandling.h>
+#import <IdentityLookup/ILMessageFilterQueryRequest.h>
 #import <IdentityLookup/ILMessageFilterQueryResponse.h>
-#import <IdentityLookup/ILMessageClassificationRequest.h>
+
 #import <IdentityLookup/ILCommunication.h>
+#import <IdentityLookup/ILCallCommunication.h>
+#import <IdentityLookup/ILMessageCommunication.h>
+
 #import <IdentityLookup/ILClassificationRequest.h>
+#import <IdentityLookup/ILClassificationResponse.h>
+#import <IdentityLookup/ILClassificationActions.h>
+
+#import <IdentityLookup/ILMessageClassificationRequest.h>
+#import <IdentityLookup/ILCallClassificationRequest.h>

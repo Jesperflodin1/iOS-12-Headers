@@ -314,7 +314,7 @@ classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/FaceC
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/FamilyCircle.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/FamilyCircleUI.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/FamilyNotification.framework
-classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/FileProvider.framework -> ../Frameworks/FileProvider.framework
+classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/FileProvider.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/FindMyDevice.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/FindMyDeviceUI.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/Fitness.framework
@@ -350,7 +350,7 @@ classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/Hapti
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/HardwareDiagnostics.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/HardwareSupport.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/HealthDaemon.framework
-classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/HealthKitUI.framework -> ../Frameworks/HealthKitUI.framework
+classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/HealthKitUI.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/HealthRecordServices.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/HealthUI.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/HearingCore.framework
@@ -389,7 +389,7 @@ classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IOCEC
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IOImageLoader.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IOImageLoaderDaemon.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IOMobileFramebuffer.framework
-classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IOSurface.framework -> ../Frameworks/IOSurface.framework
+classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IOSurface.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IOSurfaceAccelerator.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IPTelephony.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/ITMLKit.framework
@@ -399,15 +399,15 @@ classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/Image
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IncomingCallFilter.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/InputContext.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/InstallCoordination.framework
-classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/Intents.framework -> ../Frameworks/Intents.framework
+classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/Intents.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IntentsCore.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IntentsFoundation.framework
-classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IntentsUI.framework -> ../Frameworks/IntentsUI.framework
+classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IntentsUI.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IntentsUICardKitProviderSupport.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/InternationalSupport.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/InternationalTextSearch.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/IntlPreferences.framework
-classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/JavaScriptCore.framework -> ../Frameworks/JavaScriptCore.framework
+classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/JavaScriptCore.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/Jet.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/KeyboardArbiter.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/KeyboardServices.framework
@@ -510,7 +510,7 @@ classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/NearF
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/NetAppsUtilities.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/NetAppsUtilitiesUI.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/Netrb.framework
-classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/Network.framework -> /System/Library/Frameworks/Network.framework
+classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/Network.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/NetworkServiceProxy.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/NetworkStatistics.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/NeutrinoCore.framework
@@ -537,7 +537,7 @@ classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/Offic
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/OnBoardingKit.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/PASampling.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/PBBridgeSupport.framework
-classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/PDFKit.framework -> ../Frameworks/PDFKit.framework
+classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/PDFKit.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/PLShutdown.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/PLSnapshot.framework
 classdump-dyld -b -o /var/root/classdump /System/Library/PrivateFrameworks/PPTopicExtractionPlugin.framework
